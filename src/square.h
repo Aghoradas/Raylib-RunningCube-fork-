@@ -2,7 +2,7 @@
 #define square_h
 #include <raylib.h>
 
-class square
+class Square
 {
 private:
     float x;
@@ -12,19 +12,13 @@ private:
     Color color;
 
 public:
-    square(float squareX, float squareY, int squareWidth, int squareHeight, Color color);
+    Square(float squareX, float squareY, int squareWidth, int squareHeight, Color color);
 
-    void movePlayer()
-    {
-    }
+    void movePlayer();
 
-    bool mapCollisionDetection()
-    {
-    }
+    bool mapCollisionDetection();
 
-    void drawPlayer()
-    {
-    }
+    void drawPlayer();
 };
 
 #endif
